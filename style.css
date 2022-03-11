@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+}
+p, a, span{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .........................................Main Menu Css Start..................................... */
+/* nav{
+    background: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+}
+nav .sticky{
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+} */
+.navbar{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    transition:1s;
+}
+.nab-bg{
+    background-color:#fff;
+    
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #121B64;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #646464;
+    font-size: 18px;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:hover {
+    color: #121B64;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* .........................................Main Menu Css End..................................... */
+
+/* .......................................Slider Part Css Start................................... */
+#Slider_Part{
+    background: url(img/slider_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 250px 0;
+    position: relative;
+}
+.slider_contant{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.slider_contant h2 {
+    font-weight: 700;
+    color: #121B64;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+.slider_contant p {
+    font-size: 23px;
+    text-align: justify;
+    color: #2c2a2a;
+    font-weight: 600;
+}
+.btn {
+    font-weight: 700;
+    font-size: 18px;
+    border: 2px solid #121B64;
+    border-radius: 27px;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    color: #121B64;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #121B64;
+    color: #fff;
+    border: 2px solid transparent;
+}
+/* .......................................Slider Part Css End................................... */
+
+/* ........................................About Part Css Start................................. */
+.about_contant h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #121B64;
+}
+.about_contant h5{
+    color: #121B64;
+}
+/* ........................................About Part Css End................................. */
+
+/* ..................................................Service Part Css start.......................... */
+#service_part{
+    background: #F1F6FC;
+}
+.service_head p{
+    margin: 0;
+}
+.service_head h2 {
+    color: #121B64;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+.service_contant {
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    
+}
+.service_contant i {
+    font-size: 40px;
+    border: 1px solid #ddd;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    color: #121B64;
+    transition: 0.5s;
+}
+.service_contant:hover.service_contant i{
+    background: #121B64;
+    color: #fff;
+}
+.service_contant h3 {
+    margin-top: 20px;
+    color: #121B64;
+}
+.service_contant p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+/* ..................................................Service Part Css end.......................... */
+
+/* ..........................................Process Part Css start............................. */
+.process_item{
+    padding: 20px;
+    width: 350px;
+    margin-bottom: 35px;
+}
+.process_item span{
+    position: relative;
+}
+
+.process_item span i{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border: 2px dotted #121B64;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #121B64;
+    
+}
+.line img {
+    width: 412px;
+    position: absolute;
+    top: -67px;
+    left: 35px;
+}
+.process_item h2 {
+    font-size: 25px;
+    margin-top: 20px;
+    color: #121B64;
+}
+.process_item p {
+    font-size: 14px;
+    margin-top: 15px;
+    color: #8D868C;
+}
+/* ..........................................Process Part Css end............................. */
+
+/* ........................................Portfolio Part Css Start................... */
+#portfolio{
+    background:  #F1F6FC;
+}
+.portfolio_menu ul{
+    list-style: none;
+    padding: 0;
+}
+.portfolio_menu ul li {
+    display: inline-block;
+    
+}
+/* .portfolio_menu ul li:hover .portfolio_menu ul li a{
+    background: none;
+    border: 1px solid #121B64;
+    color: #121B64;
+}  */
+.portfolio_menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #121B64;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.portfolio_menu ul li a:hover{
+    background: none;
+    border: 2px solid #121B64;
+    color: #121B64;
+    transform-origin: 10%;
+    
+}
+.portfolio_menu ul li a:hover{
+    color: #121B64;
+} 
+.portfolio_image{
+    margin-bottom: 25px;
+    border: 1px solid #121B64;
+    border-radius: 5px;
+    position: relative;
+    transition: 0.3s;
+    box-sizing: border-box;
+    box-shadow: 0 0px 7px 1px rgb(0 0 0 / 60%);
+}
+.portfolio_image:hover .portfolio_icon {
+    opacity: 1;
+    transform: scale(0.9)
+}
+.portfolio_icon {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid #121B64;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+.portfolio_icon a{
+    text-decoration: none;
+}
+.portfolio_icon a i:hover{
+    background: #E94546;
+}
+.portfolio_icon a i{
+    font-size: 35px;
+    color: #fff;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    background: rgba(18, 27, 100, 0.8);
+    transition: 0.3s;
+}
+/* ........................................Portfolio Part Css End................... */
+
+/* ........................................Contact Part Css start....................... */
+#contact{
+    position: sticky;
+    
+}
+.contact_info .contact_icon{
+    color: #121B64;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.contact_info .info {
+    font-weight: 600;
+    font-size: 20px;
+    color: #121B64;
+}
+.contact_info p {
+    font-size: 18px;
+    color: #a8a2a2;
+    margin-left: 40px;
+}
+.contact_form form input {
+    width: 400px;
+    height: 50px;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #a8a2a2;
+    border: 1px solid #121B64;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.contact_form form textarea{
+    width: 400px;
+    height: 150px;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #a8a2a2;
+    border-radius: 5px;
+    border: 1px solid #121B64;
+}
+.contact_form a {
+    text-decoration: none;
+    display: inline-block;
+    color: #121B64;
+    font-size: 18px;
+    border: 2px solid #121B64;
+    padding: 15px 25px;
+    font-weight: 500;
+    border-radius: 50px;
+    transition: 0.3s;
+    
+}
+.contact_form a:hover{
+    background: #121B64;
+    color: #fff;
+    border: 2px solid transparent;
+    
+}
+/* ........................................Contact Part Css end....................... */
+
+/* ........................................Social Media Part Css start....................... */
+#social_media{
+    background: url(img/social_media_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+}
+#social_media::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(3, 76, 101, 0.8);
+}
+.social_icon{
+    position: relative;
+    z-index: 1;
+}
+.social_icon img{
+    width: 150px;
+}
+.social_icon a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+.social_icon span{
+    color: #a8a2a2;
+    font-size: 15px;
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/* ........................................Social Media Part Css end....................... */
+
+/* ........................................Footer Part Css Start............................. */
+#footer{
+    background: #F1F6FC;
+    padding: 20px 0;
+}
+.footer_content p{
+    margin-bottom: 0;
+}
+.footer_content p span{
+    font-weight: 500;
+    font-size: 18px;
+    color: #121B64;
+}
+/* ........................................Footer Part Css end............................. */
