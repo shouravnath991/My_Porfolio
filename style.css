@@ -296,7 +296,7 @@ nav .sticky{
     color: #a8a2a2;
     margin-left: 40px;
 }
-.contact_form form input {
+/* .contact_form form input {
     width: 400px;
     height: 50px;
     padding: 15px 10px;
@@ -336,6 +336,54 @@ nav .sticky{
     color: #fff;
     border: 2px solid transparent;
     
+} */
+.contact_form .contact_box{
+    position: relative;
+}
+.contact_form .contact_box input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #646464;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #121B64;
+}
+.contact_form .contact_box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #121B64;
+    pointer-events: none;
+    transition: .5s;
+    font-weight: 500;
+}
+.contact_form .contact_box input:focus ~ label,
+.contact_form .contact_box input:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: #121B64;
+    font-size: 14px;
+}
+.contact_form input[type="submit"] {
+    background: transparent;
+    border: 2px solid #121B64;
+    color: #121B64;
+    padding: 15px 25px;
+    border-radius: 32px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: .5s;
+}
+.contact_form input[type="submit"]:hover{
+    background: #121B64;
+    color: #fff;
+    border: 2px solid transparent;
 }
 /* ........................................Contact Part Css end....................... */
 
