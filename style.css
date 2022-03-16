@@ -296,47 +296,6 @@ nav .sticky{
     color: #a8a2a2;
     margin-left: 40px;
 }
-/* .contact_form form input {
-    width: 400px;
-    height: 50px;
-    padding: 15px 10px;
-    margin-bottom: 10px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #a8a2a2;
-    border: 1px solid #121B64;
-    box-sizing: border-box;
-    border-radius: 5px;
-}
-.contact_form form textarea{
-    width: 400px;
-    height: 150px;
-    padding: 15px 10px;
-    margin-bottom: 10px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #a8a2a2;
-    border-radius: 5px;
-    border: 1px solid #121B64;
-}
-.contact_form a {
-    text-decoration: none;
-    display: inline-block;
-    color: #121B64;
-    font-size: 18px;
-    border: 2px solid #121B64;
-    padding: 15px 25px;
-    font-weight: 500;
-    border-radius: 50px;
-    transition: 0.3s;
-    
-}
-.contact_form a:hover{
-    background: #121B64;
-    color: #fff;
-    border: 2px solid transparent;
-    
-} */
 .contact_form .contact_box{
     position: relative;
 }
