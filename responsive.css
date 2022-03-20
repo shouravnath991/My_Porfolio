@@ -107,6 +107,9 @@
     .work_place{
         margin-bottom: 20px;
     }
+    .arrow_3 img{
+        visibility: hidden;
+    }
     .navbar-toggler{
         position: relative;
         right: 85px;
@@ -117,5 +120,39 @@
     .navbar-nav{
         text-align: center;
     }
+    .footer_content p{
+        font-size: 14px;
+    }
+    .footer_content p span{
+        font-size: 16px;
+    }
     
+}
+@media (max-width : 575.98px){
+    .about_contant h5 {
+        text-align: center;
+        font-size: 25px;
+    }
+    .work_place{
+        margin-bottom: 20px;
+    }
+    .arrow_3 img{
+        visibility: hidden;
+    }
+    .navbar-toggler{
+        position: relative;
+        right: 85px;
+    }
+    .navbar-brand img{
+        max-width: 90%;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .footer_content p{
+        font-size: 14px;
+    }
+    .footer_content p span{
+        font-size: 16px;
+    }
 }
