@@ -259,6 +259,8 @@ p, a, span{
     padding: 20px;
     width: 350px;
     margin-bottom: 35px;
+    box-sizing: border-box;
+    
 }
 .process_item span{
     position: relative;
@@ -275,10 +277,13 @@ p, a, span{
     
 }
 .line img {
-    width: 412px;
+    max-width: 420px;
     position: absolute;
     top: -67px;
-    left: 35px;
+    left: 42px;
+}
+.arrow img{
+    visibility: visible;
 }
 .process_item h2 {
     font-size: 25px;

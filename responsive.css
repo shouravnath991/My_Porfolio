@@ -1,0 +1,121 @@
+@media (max-width: 1200px){
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+    .slider_contant h2 {
+        font-size: 44px;
+    }
+    .service_contant p {
+        font-size: 13px;
+    }
+    .line img {
+        max-width: 318px;
+        position: absolute;
+        top: -54px;
+        left: 51px;
+    }
+    .process_item h2 {
+        font-size: 25px;
+        margin-top: 20px;
+        color: #121B64;
+    }
+}
+@media (max-width: 992px){
+    .slider_contant h2 {
+        font-size: 32px;
+    }
+    .slider_contant p {
+        font-size: 16px;
+    }
+    .service_contant h3 {
+        font-size: 24px;
+    }
+    .arrow img{
+        visibility: hidden;
+    }
+    .line img {
+        width: 340px;
+        position: absolute;
+        top: -55px;
+        left: 66px;
+    }
+    .arrow_2{
+        width: 340px;
+        position: absolute;
+        top: 0;
+        right: 110px;
+    }
+    .portfolio_menu ul li a {
+        margin-right: 20px;
+    }
+    .portfolio_menu ul .res_menu{
+        margin-top: 35px;
+        position: relative;
+        right: 14px;
+    }
+}
+@media (max-width: 768px){
+    .about_contant h2{
+        text-align: center;
+    }
+    .about_contant p{
+        text-align: justify;
+    }
+    .about_contant h5{
+        text-align: center;
+    }
+    .working_place{
+        position: relative;
+        left: 85px;
+        margin-bottom: 40px;
+    }
+    .line img {
+        width: 240px;
+        position: absolute;
+        top: -37px;
+        left: 143px;
+    }
+    .arrow_3 img{
+        visibility: hidden;
+    }
+    .process_item {
+        padding: 20px;
+        width: 100%;
+        margin: 0;
+    }
+    .process_item p {
+        margin-bottom: 0;
+    }
+    .portfolio_menu ul .res_menu {
+        margin-top: 35px;
+        position: relative;
+        right: -1px;
+    }
+    .contact_form {
+        margin-top: 25px;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    
+}
+@media (max-width : 576px){
+    .about_contant h5 {
+        text-align: center;
+        font-size: 25px;
+    }
+    .work_place{
+        margin-bottom: 20px;
+    }
+    .navbar-toggler{
+        position: relative;
+        right: 85px;
+    }
+    .navbar-brand img{
+        max-width: 90%;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    
+}
