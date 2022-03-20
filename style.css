@@ -314,7 +314,7 @@ p, a, span{
     border: 1px solid #121B64;
     color: #121B64;
 }  */
-.portfolio_menu ul li a{
+.portfolio_menu ul li span{
     text-decoration: none;
     color: #fff;
     border: 2px solid transparent;
@@ -324,15 +324,16 @@ p, a, span{
     background: #121B64;
     font-weight: 500;
     transition: 0.3s;
+    cursor: pointer;
 }
-.portfolio_menu ul li a:hover{
+.portfolio_menu ul li span:hover{
     background: none;
     border: 2px solid #121B64;
     color: #121B64;
     transform-origin: 10%;
     
 }
-.portfolio_menu ul li a:hover{
+.portfolio_menu ul li span:hover{
     color: #121B64;
 } 
 .portfolio_image{
