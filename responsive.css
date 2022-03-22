@@ -100,6 +100,12 @@
     
 }
 @media (max-width : 576px){
+    .slider_contant {
+        width: 400px;
+    }
+    .slider_contant h2 {
+        font-size: 25px;
+    }
     .about_contant h5 {
         text-align: center;
         font-size: 25px;
@@ -115,7 +121,7 @@
         right: 85px;
     }
     .navbar-brand img{
-        max-width: 90%;
+        max-width: 60%;
     }
     .navbar-nav{
         text-align: center;
@@ -125,6 +131,9 @@
     }
     .footer_content p span{
         font-size: 16px;
+    }
+    .portfolio_menu ul .res_menu {
+        margin-top: 50px;
     }
     
 }
